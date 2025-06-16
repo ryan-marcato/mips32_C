@@ -72,8 +72,8 @@ typedef struct InfoInstrucao
 
 } InfoInstrucao;
 
-typedef void (*InstructionHandler)(Instrucao);
-extern InstructionHandler tabela_jump[];
+typedef void (*InstrucaoHandler)(Instrucao);
+extern InstrucaoHandler tabela_jump[];
 
 InfoInstrucao *busca_instrucao(const char *nome);
 
