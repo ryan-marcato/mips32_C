@@ -22,7 +22,7 @@ bool armazenar_palavra_memoria(uint32_t endereco, int valor);
 
 bool armazenar_string_memoria(uint32_t endereco, const char *string);
 
-bool armazenar_intrucao_memoria(uint32_t address, Instrucao instruction);
+bool armazenar_intrucao_memoria(uint32_t endereco, Instrucao instrucao);
 
 void inicializar_memoria();
 
