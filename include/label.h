@@ -6,9 +6,10 @@
 #define MAX_LABELS 500
 #define MAX_LABEL_TAM 100
 
-typedef struct {
+typedef struct
+{
     char nome[MAX_LABEL_TAM];
-    uint32_t endereco; 
+    uint32_t endereco;
 } Label;
 
 extern Label label_arr[];
@@ -16,6 +17,6 @@ extern uint32_t label_atual;
 
 void add_label(const char *nome, uint32_t endereco);
 void print_label_lista();
-uint32_t encontra_end_label(const char *nome);
+uint32_t encontra_label(const char *nome);
 
 #endif
