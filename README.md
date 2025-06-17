@@ -12,4 +12,4 @@ O código faz isso para os três formatos principais de instrução MIPS: Tipo-R
 
 - memoria.c: Ele gerencia duas áreas : a memória de dados, onde o programa armazena variáveis e strings, e a memória de instruções, onde o código a ser executado é guardado. O código define funções para ler e escrever dados nessas memórias de forma segura.
 
-- registradores.c: Este código é responsável por gerenciar os registradores do seu simulador de CPU, seguindo a convenção de nomes da arquitetura MIPS. Ele inicializa, busca e exibe o estado dos registradores, que são as unidades de armazenamento mais rápidas e essenciais para as operações da CPU.
+- registradores.c: Este código é responsável por gerenciar os registradores do simulador de CPU, seguindo a convenção de nomes da arquitetura MIPS. Ele inicializa, busca e exibe o estado dos registradores, que são as unidades de armazenamento mais rápidas e essenciais para as operações da CPU.
